@@ -139,16 +139,16 @@ void doubleList()
 
     system("pause");
 
-//    line();
-//
-//    d_list.removeAtIndex(1);
-//    d_list.insertAtIndex(1,5);
-//
-//    cout << d_list;
-//
-//    line();
-//
-//    system("pause");
+    line();
+
+    d_list.removeAtIndex(1);
+    d_list.insertAtIndex(0,5);
+
+    cout << d_list;
+
+    line();
+
+    system("pause");
 
     line();
 
@@ -168,7 +168,7 @@ void doubleList()
     line();
 
     line();
-    cout << "The result of math operation between element with index 1, and with element with index 3, is:" << d_list[1] - d_list[3] << endl;
+    cout << "The result of math operation between element with index 0, and with element with index 2, is: " << d_list[0] - d_list[2] << endl;
     line();
 
     curiousLine();
